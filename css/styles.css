@@ -5,14 +5,14 @@
     box-sizing: border-box;
 }
 
-html, 
+html,
 body {
     height: 100%;
     background: #eceff1;
     transition: 0.3s;
 }
 
-input[type="checkbox"] {
+input[type='checkbox'] {
     display: none;
 }
 
@@ -44,7 +44,7 @@ main {
     margin-top: 4rem;
     display: flex;
     width: 70%;
-    height: 50vh;
+    height: 55vh;
     background-color: #fff;
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
 }
@@ -98,7 +98,6 @@ main {
 .price {
     font-weight: 900;
     font-size: 2rem;
-    margin-top: 4.5rem;
 }
 
 .btn {
@@ -110,11 +109,10 @@ main {
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;
-    margin-top: 4rem;
 }
 
 /* DARK THEME */
-.dark, 
+.dark,
 .dark header {
     background-color: #263238;
     color: #fff;
